@@ -55,6 +55,7 @@ and
 ***Headers***
 
 **Example:** 
+
 ## This is an h2 header
 ### This is an h3 header
 ###### This is an h6 header
@@ -67,15 +68,18 @@ and
 **Example:** 
   
 Sometimes you want numbered lists:
+
 1. One
 2. Two 
 3. Three
 
 Sometimes you want bullet points:
+
 * Start a line with a star
 * Profit!
 
 You can create nested lists: 
+
 * item1
     * one_one
     * two
