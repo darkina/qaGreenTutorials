@@ -123,6 +123,7 @@ In the words of Abraham Lincoln:
 **Task Lists*** (Please note, this requires empty line before task list):
 
 **Example:**
+
 - [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
