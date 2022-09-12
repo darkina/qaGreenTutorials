@@ -1,6 +1,6 @@
 ---
 # Daria many validations v2
-<!-- description --> Tutorial description
+<!-- description --> Tutorial description. Lorem ipsum
 tags: [tutorial>advanced, topic>abap-extensibility]
 primary_tag: products>sap-btp--cloud-foundry-environment
 time: 10 min
