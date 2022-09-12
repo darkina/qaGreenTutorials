@@ -1,5 +1,5 @@
 ---
-title: Daria many validation v2
+title: Daria many validations v2
 description: ADMINTOOL final
 tags: [tutorial>advanced, topic>abap-extensibility]
 primary_tag: products>sap-btp--cloud-foundry-environment
