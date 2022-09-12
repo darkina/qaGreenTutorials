@@ -63,6 +63,7 @@ and
 ### Regex begins with
 
 ***Lists***
+
 **Example:** 
   
 Sometimes you want numbered lists:
@@ -82,6 +83,7 @@ You can create nested lists:
 ### Regex with id Exact Match
 
 ***Blockquotes***
+
 **Example:** 
 In the words of Abraham Lincoln:
 > Pardon my French
@@ -114,6 +116,7 @@ In the words of Abraham Lincoln:
 ### Single choice
 
 **Task Lists*** (Please note, this requires empty line before task list):
+
 **Example:**
 - [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
 - [x] list syntax required (any unordered or ordered list supported)
