@@ -25,30 +25,16 @@ This is an Intro part
 
 ### 
 
-[ACCORDION-BEGIN [STEP 1](regex1)] 
-[ACCORDION-END]
+###
 
-[ACCORDION-BEGIN [STEP 2](regex)]  
-[ACCORDION-END]
+### 
 
-[ACCORDION-BEGIN [STEP 5](rexact-match-precise)] 
-[ACCORDION-END]
+###
 
-[ACCORDION-BEGIN [STEP 6](regex-begins-with)] 
-[ACCORDION-END]
+### 
 
-[ACCORDION-BEGIN [STEP7](regex-with-id-exact-match)] 
-[ACCORDION-END]
+###
 
-[ACCORDION-BEGIN [STEP10](regex-begins-with)]
-[ACCORDION-END]
+### 
 
-[ACCORDION-BEGIN [STEP 8](single-choice rule)]
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [STEP 9](multiple-choice rule)] 
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [STEP 10](multiple-choice rule)] 
-[DONE]
-[ACCORDION-END]
+###
