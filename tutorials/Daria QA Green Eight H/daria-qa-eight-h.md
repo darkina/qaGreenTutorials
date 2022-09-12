@@ -20,13 +20,15 @@ time: 44
 ### You will learn  
 TEST2
 
-
-
 ---
 
 [ACCORDION-BEGIN [](Accordion component which contains Images in Body)]
-    
+
+DAM video:
 [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2017/12/746085f5-e27c-0010-82c7-eda71af511fa.mp4)]
+
+Video in iframe:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IRnt2_dDxzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [DONE]
 [ACCORDION-END]
