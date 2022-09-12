@@ -1,7 +1,7 @@
 ---
-author_name: Daria QA Green Twelve L
+title: Daria QA Green Twelve L
 author_profile: https://github.com/chriskollhed
-title: Create Users and Manage Roles and Privileges
+author_name: Chris Kollhed
 description: Learn how to create users and assign roles and privileges in SAP HANA Cloud, SAP HANA database using SAP HANA Cockpit or SQL statements.
 auto_validation: true
 time: 5
