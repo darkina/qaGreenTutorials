@@ -1,11 +1,12 @@
 [VALIDATE_1]
-
 ###Rule
-regex
-
+exact-match
+###Question
+exact-match rule
+Answer:
+test
 ###Match
-^https:\/\/account.hanatrial.ondemand.com\/cockpit\/.*\/\w\d+trial\/
-
+test
 [VALIDATE_1]
 
 [VALIDATE_2]
@@ -19,16 +20,15 @@ regex
 [VALIDATE_2]
 
 [VALIDATE_3]
-
 ###Rule
-exact-match
-
+http-status-check
+###Question
+with 404
+EX: https://github.com/user/user/user
 ###Match
-my answer to this question is yes
+404
 
 [VALIDATE_3]
-
-
 
 [VALIDATE_4]
 
@@ -51,13 +51,15 @@ https://account.hanatrial.ondemand.com/cockpit/#/acc/[id]trial/accountdashboard
 [VALIDATE_5]
 
 [VALIDATE_6]
-
 ###Rule
-regex-with-id-exact-match
-
+regex-substring
+###Question
+regex-sub-string
+test1:
+Test2
 ###Match
-https://account.hanatrial.ondemand.com/cockpit/#/acc/[id]trial
-
+test1
+Test2
 [VALIDATE_6]
 
 [VALIDATE_7]
@@ -83,8 +85,6 @@ Who you are? (answer is QA)
 [ ] Economist
 [VALIDATE_7]
 
-
-
 [VALIDATE_8]
 ###Rule
 multiple-choice
@@ -103,3 +103,11 @@ What do you like? (answer are comedy, adventure, horror)
 [ ] erotic
 [ ] documentary
 [VALIDATE_8]
+
+[VALIDATE_9]
+###Rule
+regex
+
+###Match
+^https:\/\/account.hanatrial.ondemand.com\/cockpit\/.*\/\w\d+trial\/
+[VALIDATE_9]
