@@ -1,7 +1,7 @@
 ---
 title: Daria QA Green Five E
 description: 2 new types of rules 2007_1
-tags: [products>sap-fior, tutorial>beginner]
+tags: [products>api-management, tutorial>beginner]
 primary_tag: software-product>sap-business-application-studio
 author_name: AEM
 author_profile: https://github.com/adadouche
