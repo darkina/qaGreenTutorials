@@ -3,8 +3,6 @@
 exact-match
 ###Question
 exact-match rule
-Answer:
-test
 ###Match
 test
 [VALIDATE_1]
@@ -24,7 +22,6 @@ regex
 http-status-check
 ###Question
 with 404
-EX: https://github.com/user/user/user
 ###Match
 404
 
@@ -55,8 +52,6 @@ https://account.hanatrial.ondemand.com/cockpit/#/acc/[id]trial/accountdashboard
 regex-substring
 ###Question
 regex-sub-string
-test1:
-Test2
 ###Match
 test1
 Test2
