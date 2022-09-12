@@ -1,9 +1,10 @@
 ---
-title: Daria many validations v2
-description: ADMINTOOL final
+# Daria many validations v2
+<!-- description --> Tutorial description
 tags: [tutorial>advanced, topic>abap-extensibility]
 primary_tag: products>sap-btp--cloud-foundry-environment
-time: 33 min
+time: 10 min
+parser: v2
 ---
 
 ## Prerequisites  
@@ -12,42 +13,40 @@ time: 33 min
  - **Tutorials:** This tutorial is part of a series.  The previous tutorial is [Set up the Northwind Destination](https://go.sap.com/developer/tutorials/hcp-create-destination.html)
 
 ## Next Steps
- - TEST
+ - **Tutorials** [Creating Database Backups](https://www.sap.com/)
   
 
-## Details
-### You will learn  
+## You will learn
+  - How to do something
+  - Why this technology is helpful
+
+## Intro
+This is an Intro part
+
+### 
 
 [ACCORDION-BEGIN [STEP 1](regex1)] 
-[VALIDATE_1] 
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [STEP 2](regex)] 
-[VALIDATE_2] 
+[ACCORDION-BEGIN [STEP 2](regex)]  
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 5](rexact-match-precise)] 
-[VALIDATE_5] 
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 6](regex-begins-with)] 
-[VALIDATE_6] 
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP7](regex-with-id-exact-match)] 
-[VALIDATE_7] 
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [STEP10](regex-begins-with)] 
-[VALIDATE_10] 
+[ACCORDION-BEGIN [STEP10](regex-begins-with)]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [STEP 8](single-choice rule)] 
-[VALIDATE_8] 
+[ACCORDION-BEGIN [STEP 8](single-choice rule)]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 9](multiple-choice rule)] 
-[VALIDATE_9] 
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 10](multiple-choice rule)] 
