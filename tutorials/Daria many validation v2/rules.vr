@@ -18,7 +18,7 @@ regex
 
 [VALIDATE_2]
 
-[VALIDATE_5]
+[VALIDATE_3]
 
 ###Rule
 exact-match
@@ -26,11 +26,11 @@ exact-match
 ###Match
 my answer to this question is yes
 
-[VALIDATE_5]
+[VALIDATE_3]
 
 
 
-[VALIDATE_6]
+[VALIDATE_4]
 
 ###Rule
 regex-begins-with
@@ -38,9 +38,9 @@ regex-begins-with
 ###Match
 https://account.hanatrial.ondemand.com/cockpit/#/acc/[id]trial
 
-[VALIDATE_6]
+[VALIDATE_4]
 
-[VALIDATE_7]
+[VALIDATE_5]
 
 ###Rule
 regex-with-id-exact-match
@@ -48,9 +48,9 @@ regex-with-id-exact-match
 ###Match
 https://account.hanatrial.ondemand.com/cockpit/#/acc/[id]trial/accountdashboard
 
-[VALIDATE_7]
+[VALIDATE_5]
 
-[VALIDATE_10]
+[VALIDATE_6]
 
 ###Rule
 regex-with-id-exact-match
@@ -58,9 +58,9 @@ regex-with-id-exact-match
 ###Match
 https://account.hanatrial.ondemand.com/cockpit/#/acc/[id]trial
 
-[VALIDATE_10]
+[VALIDATE_6]
 
-[VALIDATE_8]
+[VALIDATE_7]
 ###Rule
 single-choice
 
@@ -81,11 +81,11 @@ Who you are? (answer is QA)
 [ ] Manager
 [ ] Housewife
 [ ] Economist
+[VALIDATE_7]
+
+
+
 [VALIDATE_8]
-
-
-
-[VALIDATE_9]
 ###Rule
 multiple-choice
 
@@ -102,4 +102,4 @@ What do you like? (answer are comedy, adventure, horror)
 [X] adventure
 [ ] erotic
 [ ] documentary
-[VALIDATE_9]
+[VALIDATE_8]
