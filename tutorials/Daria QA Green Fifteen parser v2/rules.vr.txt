@@ -1,0 +1,9 @@
+[VALIDATE_1]
+
+###Rule
+exact-match
+
+###Match
+my answer to this question is yes
+
+[VALIDATE_1]
