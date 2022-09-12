@@ -162,10 +162,6 @@ After confirming the status, click on the three dots again and select the option
 
 1.	Look for the name of your standalone data lake from the database menu located on the left side in the database explorer.
 
-2.	Click on the ![SQL](DBX_SQL icon.png) **icon** in the top-left corner to open a new SQL Console.
-
-3.	You can confirm the connection to your standalone data lake from the connection status provided on the menu in the SQL Console.
-
 [OPTION END]
 [OPTION BEGIN [Option Two]]
 >Connecting to a data lake instance with Interactive SQL is another option besides using the SAP HANA Database Explorer. If you want to connect using Interactive SQL (dbisql), you need to have it installed on your local system. You can download the Interactive SQL using the link provided in the [technical documentation](https://help.sap.com/viewer/a895964984f210158925ce02750eb580/LATEST/en-US/2fdb23a4fb364e06ace0eea0c9a4afec.html).
@@ -178,14 +174,6 @@ These are the steps towards connecting to your instance through the graphical us
 
      !![Open dbisql](ss-01-open-dbisql.png)
 
-2.	Select **Change database type** and choose **SAP HANA Cloud Data Lake**.
-
-     !![Change Database type](ss-02-change-database-type.png)
-
-3.	After selecting the database type, ensure that the encryption parameters placed under the security tab have been pre-filled, as shown below.
-
-    !![Check security](ss-03-check-security.png)
-
 [OPTION END]
 [OPTION BEGIN [Option Three]]
 
@@ -194,12 +182,6 @@ If you would like to connect to your data lake instance through an Interactive S
 1.	Connecting to a data lake instance through an Interactive SQL from the command line requires a Connection String. To extract the connection string, ensure all fields on the Identification tab are filled in. Select **Tools**, then choose **Copy Connection String to Clipboard**.
 
     !![Copy Connection string](ss-08-copy-connection-string.png)
-
-2.	After pasting the connection string in a notepad file, you can the distinguish the parts as seen below.
->**The password field must be filled using the password for your data lake instance before using this string to connect from the command line.** The connecting string consists of the port number at the end of Landscape information and is followed by the encryption parameters.
-
-    !![Connection string](ss-09-connection-string.png)
-
 
 3.	Now, open a Command Prompt window in your system. To begin an Interactive SQL session, execute the following command given below.
 ```
@@ -227,14 +209,6 @@ To use isql, you need to have an **interfaces file**, which you can create in th
 
     !![Root folder](ss-13-root-folder.png)
 
-2.	Enter the vim editor as the superuser account
-
-    a.	`sudo vim interfaces`
-
-    b.	`enter password`
-
-    !![Connected to Root folder](ss-14-connected-root-folder.png)
-
 12. If you encounter the following error while trying to start an isql session:
 
     !![Troubleshoot](ss-19-troubleshoot.png)
@@ -246,7 +220,6 @@ To use isql, you need to have an **interfaces file**, which you can create in th
     ```
 
     >**Attention**: This error was observed while using Ubuntu on a virtual Linux machine. This error will not occur when supported programs are used.
-
 
 [OPTION END]
 
