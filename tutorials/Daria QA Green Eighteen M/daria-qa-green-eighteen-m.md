@@ -259,9 +259,4 @@ isql -U <username> -S <Instance_Name> -I<path to interfaces file>
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 5: ](Test yourself)]
-
-
-[VALIDATE_7]
-[ACCORDION-END]
 ---
